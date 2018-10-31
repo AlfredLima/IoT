@@ -15,4 +15,4 @@ Learning about MQTT and NodeMCU.
 - mosquitto_sub -h IP -t "TOPIC" -m "MESSAGE"
 
 ## Subcribe
--mosquitto_sub -h IP -t "TOPIC"
+- mosquitto_sub -h IP -t "TOPIC"
