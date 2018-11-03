@@ -1,25 +1,31 @@
-# MQTT
+# IOT
+
+## MQTT
 Learning about MQTT and NodeMCU.
 
-## Install
+### Install
 - sudo apt install mosquitto
-- sudo apt instsll mosquitto-clients
+- sudo apt install mosquitto-clients
 
-## Enable server
+### Configure Mosquitto
+- http://www.steves-internet-guide.com/install-mosquitto-linux/
+
+### Enable server
 - sudo systemctl enable mosquitto.service
 
-## Query
+### Query
 - systemctl status mosquitto.service
 
-## Publisher
+### Publisher
 - mosquitto_sub -h IP -t "TOPIC" -m "MESSAGE"
 
-## Subcribe
+### Subcribe
 - mosquitto_sub -h IP -t "TOPIC"
 
-# Node MCU
+## Node MCU
 
-## Pins with IDE Arduino
+
+### Pins with IDE Arduino
 - D0: 16
 - D1: 5
 - D2: 4
