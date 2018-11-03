@@ -1,7 +1,7 @@
 # IOT
+Learning about MQTT and NodeMCU.
 
 ## MQTT
-Learning about MQTT and NodeMCU.
 
 ### Install
 - sudo apt install mosquitto
@@ -23,7 +23,6 @@ Learning about MQTT and NodeMCU.
 - mosquitto_sub -h IP -t "TOPIC"
 
 ## Node MCU
-
 
 ### Pins with IDE Arduino
 - D0: 16
